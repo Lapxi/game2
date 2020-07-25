@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #58d0db;
+}
+.game{
+    max-width:1360px ;
+    max-height:768px ;
+}
+.block{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    margin: 0;
+}
+.block1{
+    position: absolute;
+    top: 90px;
+    left: 400px;
+}
+.block2{
+    position: absolute;
+    top: 90px;
+    left: 600px;
+}
+.block3{
+    position: absolute;
+    top: 290px;
+    left: 400px;
+}
+.block4{
+    position: absolute;
+    top: 290px;
+    left: 600px;
+}
+.rou{
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border:2px solid white;
+    top: 265px;
+    left: 575px;
+}
+.btn{
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border: none;
+    border-radius:50%;
+    background-color:orange;
+    top: 400px;
+    right: 200px;
+}
+.inputOne{
+    position: absolute;
+    display: inline-block;
+    right: 215px;
+    top: 300px;
+    border-radius: 35%;
+    background-color:orange;
+    border: black;
+    color: white;
+    text-align: center;
+}
+.input2{
+    position: absolute;
+    display: inline-block;
+    right: 215px;
+    top: 260px;
+    border-radius: 35%;
+    background-color:orange;
+    border: black;
+    color: white;
+    text-align: center;
+}
+.input3{
+    position: absolute;
+    display: inline-block;
+    right: 215px;
+    top: 220px;
+    border-radius: 35%;
+    background-color:orange;
+    border: black;
+    color: white;
+    text-align: center;
+}
+.input4{
+    position: absolute;
+    display: inline-block;
+    right: 215px;
+    top: 180px;
+    border-radius: 35%;
+    background-color:orange;
+    border: black;
+    color: white;
+    text-align: center;
+}
+.div{
+    width: 100px;
+    height: 20px;
+    border: 2px solid black;
+}
+.div1{
+    display: none;
+}
+.div2{
+    display: none;
+}
+.div3{
+    display: none;
+}
+.div4{
+    display: none;
+}
+.btn1{
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border: none;
+    border-radius:50%;
+    background-color:orange;
+    top: 400px;
+    right: 200px;
+}
+.im1{
+    width: 50px;
+    height: 50px;
+    display: none;
+    position: absolute;
+    top: 160px;
+    left: 660px;
+}
+.im2{
+    width: 50px;
+    height: 50px;
+    display: none;
+    position: absolute;
+    left: 660px;
+    top: 360px;
+}
+.im3{
+    width: 50px;
+    height: 50px;
+    display: none;
+    position: absolute;
+    top: 160px;
+    left: 460px;
+}
+.im4{
+    width: 50px;
+    height: 50px;
+    display: none;
+    position: absolute;
+    top: 360px;
+    left: 460px;
+}
+.p1{
+    width: 50px;
+    height: 50px;
+    display: none;
+    position: absolute;
+    top: 143px;
+    left: 660px;
+    color: white;
+}
+.p2{
+    width: 50px;
+    height: 50px;
+    display: none;
+    position: absolute;
+    left: 660px;
+    top: 343px;
+    color: white;
+}
+.p3{
+    width: 50px;
+    height: 50px;
+    display: none;
+    position: absolute;
+    top: 143px;
+    left: 460px;
+    color: white;
+}
+.p4{
+    width: 50px;
+    height: 50px;
+    display: none;
+    position: absolute;
+    top: 343px;
+    left: 460px;
+    color: white;
+}
